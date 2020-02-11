@@ -1,0 +1,10 @@
+prompt = '-->'
+Kilo = 0
+
+print(f"Kilometers?")
+Kilo = float(input(prompt))
+DegreesPerMin = 90 * 60
+Kilos = DegreesPerMin / 10000
+NauticalMile = (Kilos * Kilo)
+
+print(Kilo, "is", NauticalMile, "Nautical Mile")

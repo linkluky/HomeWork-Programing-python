@@ -1,0 +1,13 @@
+prompt = '-->'
+P = 0
+M = 0
+V = 0
+
+print(f"Mp/s?")
+V = float(input(prompt))
+print(f"Kg?")
+M = float(input(prompt))
+
+P = M * V
+
+print("Momentum =:", P)

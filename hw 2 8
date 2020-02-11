@@ -1,0 +1,8 @@
+year = 365
+ 
+hour = 24 * year
+minutes = hour * 60
+seconds = minutes * 60
+lightspeed = 3 * 10 ** 8
+lightyear = lightspeed * seconds
+print("Light travels =:", lightyear, "in one year")

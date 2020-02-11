@@ -1,0 +1,21 @@
+prompt = '-->'
+WeekH = 0
+OverT = 0
+HourlyW = 0
+Pay = 0
+PayO = 0
+PayF = 0
+
+
+print(f"Week Hours?")
+WeekH = float(input(prompt))
+print(f"Over Time?")
+OverT = float(input(prompt))
+print(f"Hourly Wage?")
+HourlyW = float(input(prompt))
+
+Pay = HourlyW * WeekH
+PayO = OverT * HourlyW * 1.5
+PayF = PayO + Pay
+
+print("Weekly Pay", PayF)

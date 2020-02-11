@@ -1,0 +1,16 @@
+prompt = '-->'
+P = 0
+M = 0
+V = 0
+KE = 0
+
+print(f"Mp/s?")
+V = float(input(prompt))
+print(f"Kg?")
+M = float(input(prompt))
+
+P = M * V
+KE = (1/2) * (M * V)**2
+
+print("Momentum =:", P)
+print("Kinetic Energy =:", KE)

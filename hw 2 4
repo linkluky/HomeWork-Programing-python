@@ -1,0 +1,18 @@
+prompt = '-->'
+Radius = 0
+Diameter = 0
+Volume = 0
+Circumference = 0
+
+print(f"Radius?")
+Radius = float(input(prompt))
+
+Diameter = Radius * 2
+Circumference = Diameter * 3.1416
+surfaceArea = (4 * 3.1416 * (Radius ** 2))
+Volume = (((4 / 3) * 3.1416) * (Radius ** 3))
+
+print("Diameter:", Diameter)
+print("circumference:", Circumference)
+print("surfaceArea:", surfaceArea)
+print("volume:", Volume)

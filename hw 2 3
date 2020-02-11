@@ -1,0 +1,14 @@
+New = 3.00
+Old = 2.00
+Price = 0
+prompt = '-->'
+
+print(f"How many new")
+News = int(input(prompt))
+
+print(f"How many old")
+Olds = int(input(prompt))
+
+Price = float((News * New) +(Olds * Old))
+
+print("Your total is", Price)
